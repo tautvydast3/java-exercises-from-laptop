@@ -1,0 +1,18 @@
+package application;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+
+		System.out.print("Input first number: ");
+		int ammount = in.nextInt();
+
+		for (int month = 1; month <= 3; ammount = ammount - (ammount / 10))
+			;
+		month++;
+	}
+
+}

@@ -1,0 +1,26 @@
+package application;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter first number > ");
+		int first = in.nextInt();
+
+		Scanner in2 = new Scanner(System.in);
+		System.out.print("Enter second number > ");
+		int second = in.nextInt();
+
+		Scanner in3 = new Scanner(System.in);
+		System.out.println("Enter third number > ");
+		int third = in.nextInt();
+
+		float avg = (first + second + third) / 3;
+
+		System.out.println(avg);
+
+	}
+
+}
